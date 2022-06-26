@@ -1,0 +1,248 @@
+body{
+    font-family: 'Montserrat';
+    text-align: center;
+}
+
+h1, h2, h3, h4, h5,  h6{
+    font-family: "Montserrat-Bold";
+    
+}
+
+h3{
+    font-size: 1.5rem;
+}
+p{
+    color:#8f8f8f
+}
+
+
+.big-heading{
+    font-weight: bold;
+    font-size: 3.5rem;
+    line-height: 1.5;
+}
+
+.section-heading{
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+/* Title */
+
+#title{
+    background-color: #ff4c68;
+    color: white;
+    text-align: left;
+}
+
+.container-fluid{
+    padding:3% 15% 7%;
+}
+
+
+.navbar{
+    padding:  0 0 4.5rem;
+}
+.navbar-brand{
+    font-family: "Ubuntu";
+    /* font-family: 'Dancing Script', cursive; */
+    font-size:2.8rem;
+    font-weight: bold;
+}
+.nav-item{
+    padding: 0 18px;
+}
+
+.nav-link{
+    font-family: "Montserrat-Light";
+    font-size: 1.2rem;
+}
+
+
+.download-button{
+    margin: 5% 3% 5% 0;
+}
+
+.title-image{
+    width:20%;
+    transform: rotate(-20deg);
+    position: absolute;
+    margin-top: 30px;
+    right:30%;
+   
+}
+
+.title-image2{
+    width:10%;
+    transform: rotate(20deg);
+    position: absolute;
+    margin-top: 30px;
+    right:25%;
+   
+}
+.title-image3{
+    width:15%;
+    position: absolute;
+    transform: rotate(-10deg);
+    right:10%;
+    bottom:25%;
+    margin-top: 30px;
+    border-radius: 20%;
+   
+}
+
+
+
+ /* .title-imagediv{      /* This class will increase the height of the section which contains the image so when we will shift to mobile image will not disappear
+                            or we can say feature section will not completely overlapp the image
+    height: 29vw;
+}    */
+
+
+
+/* Features */
+
+#features{
+    padding: 7% 15%;
+    background-color: white;    
+    position: relative;
+    
+
+}
+.feature-box{
+   
+    padding:3%;
+}
+
+.feature-title{
+    font-size: 1.5rem;
+}
+
+
+.symbol{
+    color:#ef8172;
+    margin-bottom:1rem ;
+  
+}
+
+.symbol:hover{
+    color:#ff4c68;
+}
+
+
+
+
+/* Testimonials */
+
+#testimonials{    
+   
+    background-color: #ef8172;
+    color: #ffff;
+    
+}
+
+
+.testimonial-image{
+    width:10%;
+    border-radius: 100%;
+    margin: 20px;
+
+}
+
+.testimonial-text{
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+.carousel-item{
+    padding: 7% 15%;
+}
+
+
+/*  Press */
+
+#press{
+    
+    background-color: #ef8172;
+    padding-bottom: 3%; 
+}
+
+.press-logo{
+    width:15%;
+    margin: 20px 20px 50px;
+}
+
+
+/* Pricing */
+
+#pricing{
+    padding:100px;
+    text-align: center;
+}
+
+.pricing-column {
+ padding:3% 3%;
+}
+
+.price-text{
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+.price-h3{
+    font-size: 1.5rem;
+}
+
+/* cta */
+
+#cta{
+ background-color: #ff4c68;
+ padding:7% 15%;
+ 
+}
+
+#cta h3{
+    font-family:"Montserrat-Black";
+    font-weight: bolder;
+    color: white;
+    font-size: 3.5rem;
+    
+}
+
+ /*  Footer */
+
+
+#footer{
+    padding:7% 15%;
+    background-color: #fff;
+}
+
+.footer-icon{
+    color:black;
+    margin: 20px 10px;
+}
+
+
+@media  (max-width:990px) {
+    #title{
+       text-align: center;
+    }
+    
+    .title-image, .title-image2, .title-image3 {
+        width:35%;
+        transform: rotate(0deg);
+        position: static;
+        
+       
+    }
+}
+
+
+  /* @media  (min-width:700px) and (max-width:920px) { /* I added this styling because image was overlapping  
+    #features{
+        margin-left: 0;
+        margin-right: 0;
+        text-align: center;
+        padding: 7% 25%;
+    }
+} */
